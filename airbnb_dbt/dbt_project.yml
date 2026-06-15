@@ -1,0 +1,21 @@
+name: "airbnb_dbt"
+version: "1.0.0"
+config-version: 2
+
+profile: "airbnb_dbt"
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+
+models:
+  airbnb_dbt:
+    bronze:
+      +schema: bronze
+      +materialized: table
+    silver:
+      +schema: silver
+      +materialized: table
+    gold:
+      +schema: gold
+      +materialized: table

@@ -1,0 +1,28 @@
+[0m13:12:19.811666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E42EB93A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E450FE220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E44245490>]}
+
+
+============================== 13:12:19.820860 | 1bcd4696-e24f-4443-b27e-d0fdd2a93706 ==============================
+[0m13:12:19.820860 [info ] [MainThread]: Running with dbt=1.10.22
+[0m13:12:19.820860 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'target_path': 'None', 'no_print': 'None', 'version_check': 'True', 'empty': 'None', 'printer_width': '80', 'quiet': 'False', 'introspect': 'True', 'log_path': 'logs', 'warn_error': 'None', 'write_json': 'True', 'partial_parse': 'True', 'invocation_command': 'dbt init airbnb_dbt', 'log_format': 'default', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\barik\\.dbt', 'use_experimental_parser': 'False', 'use_colors': 'True', 'indirect_selection': 'eager'}
+[0m13:12:19.859403 [debug] [MainThread]: Starter project path: C:\Users\barik\AppData\Roaming\Python\Python39\site-packages\dbt\include\starter_project
+[0m13:12:19.997231 [info ] [MainThread]: 
+Your new dbt project "airbnb_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:12:19.997231 [info ] [MainThread]: Setting up your profile.
+[0m13:12:38.129923 [debug] [MainThread]: Command `dbt init` succeeded at 13:12:38.129923 after 18.47 seconds
+[0m13:12:38.129923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E42EB93A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E45255B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E45136AC0>]}
+[0m13:12:38.129923 [debug] [MainThread]: Flushing usage events
+[0m13:12:38.638126 [debug] [MainThread]: An error was encountered while trying to flush usage events
