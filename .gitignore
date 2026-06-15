@@ -15,5 +15,4 @@ venv/
 
 # IDE
 .vscode/
-.idea/data/*.csv
-data/*.csv
+.idea/
