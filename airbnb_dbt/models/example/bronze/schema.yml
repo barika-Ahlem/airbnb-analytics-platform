@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: bronze_hosts
+    description: "Raw hosts data loaded from CSV"
+    columns:
+      - name: id
+        description: "Host unique identifier"
+      - name: name
+        description: "Host name"
+      - name: is_superhost
+        description: "Superhost flag (raw string)"
+      - name: created_at
+        description: "Account creation date"
+      - name: updated_at
+        description: "Last update date"
+
+  - name: bronze_reviews
+    description: "Raw reviews data loaded from CSV"
+    columns:
+      - name: listing_id
+        description: "Listing identifier"
+      - name: date
+        description: "Review date"
+      - name: reviewer_name
+        description: "Name of the reviewer"
+      - name: comments
+        description: "Review text"
+      - name: sentiment
+        description: "Sentiment label (raw)"
+
+  - name: bronze_listings
+    description: "Raw listings data loaded from CSV/JSON"
