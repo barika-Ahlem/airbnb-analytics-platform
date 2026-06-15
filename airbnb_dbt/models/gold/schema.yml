@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: dim_hosts
+    description: "Dimension table for hosts"
+
+  - name: dim_listings
+    description: "Dimension table for listings"
+
+  - name: fact_reviews
+    description: "Fact table with non-null reviews, ordered by date desc"
+
+  - name: full_moon_reviews
+    description: "Reviews enriched with full moon context"
+    columns:
+      - name: is_full_moon
+        description: "'full moon' or 'not full moon'"
