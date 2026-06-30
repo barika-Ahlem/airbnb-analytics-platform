@@ -54,8 +54,8 @@ streamlit run app/streamlit_app.py
 | ------------------- | ------------ |
 | Setup projet & Git  | Ahlem Barika |
 | Couche Bronze       | Ahlem Barika |
-| Couche Silver       | Ahlem Barika |
-| Tests qualité       | Ahlem Barika |
-| Couche Gold         | Ahlem Barika |
+| Couche Silver       | Eya BEN REJEB|
+| Tests qualité       | Eya BEN REJEB|
+| Couche Gold         | Ahlem Barika Eya BEN REJEB|
 | Dashboard Streamlit | Ahlem Barika |
-| Documentation       | Ahlem Barika |
+| Documentation       | Ahlem Barika Eya BEN REJEB|
